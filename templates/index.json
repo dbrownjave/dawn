@@ -17,9 +17,61 @@
       ],
       "settings": {
       }
+    },
+    "1633288157723b92be": {
+      "type": "multicolumn",
+      "blocks": {
+        "1633288157723b92be-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1633288157723b92be-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SSZ-logo-10.png",
+            "title": "",
+            "text": "<p>Screen Skinz patent-pending design allows for our tempered glass to show a logo while your phone is off then disappear when your phone is on, while not disrupting your screen view.<\/p>"
+          }
+        },
+        "1633288157723b92be-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SSZ-logo-10.png",
+            "title": "",
+            "text": "<p>Screen Skinz are the only screen protectors licensed within the NFL, MLB, NBA, NCAA.<\/p>"
+          }
+        },
+        "63c0e92b-e3b8-4e1f-bbea-6694fb336d6a": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1633288157723b92be-0",
+        "1633288157723b92be-1",
+        "1633288157723b92be-2",
+        "63c0e92b-e3b8-4e1f-bbea-6694fb336d6a"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
-    "16332812169527959d"
+    "16332812169527959d",
+    "1633288157723b92be"
   ]
 }
