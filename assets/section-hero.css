@@ -1,0 +1,19 @@
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0  10rem 0;
+}
+
+.header-container .hero-title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .hero-gif {
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
