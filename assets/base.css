@@ -1,3 +1,9 @@
+/* Custom Font */
+@font-face {
+  font-family: 'Barlow-SemiBold';
+  src: url('Barlow-SemiBold.ttf') format('opentype');
+}
+
 /* Color custom properties */
 
 :root,
