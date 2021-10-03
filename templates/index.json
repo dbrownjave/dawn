@@ -1,1 +1,49 @@
-{"sections":{"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}},"button":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading","text","button"],"settings":{"color_scheme":"background-1","full_width":true}},"1633175040bc75a3e6":{"type":"section-title","settings":{"section_title":"Ditch boring screen protection and protect your phone in style!"}}},"order":["rich_text","1633175040bc75a3e6"]}
+{
+  "sections": {
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1633175040bc75a3e6": {
+      "type": "section-title",
+      "settings": {
+        "section_title": "Ditch boring screen protection and protect your phone in style!"
+      }
+    }
+  },
+  "order": [
+    "rich_text",
+    "1633175040bc75a3e6"
+  ]
+}
