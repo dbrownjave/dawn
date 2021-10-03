@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+  <div class="rich-text color-{{ section.settings.color_scheme }}">
+    <div class="rich-text__blocks">
+<h1 class="{{ settings.heading_size }}" {{ block.shopify_attributes }}>{{ section.settings.section_title | escape }}</h2>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Section Title",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "t:sections.rich-text.blocks.heading.settings.heading.label",
+      "default": "Title"
+
+    }
+],
+  "presets": [
+    {
+      "name": "Section Title",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
+
+
