@@ -21,11 +21,11 @@
     "1633288157723b92be": {
       "type": "multicolumn",
       "blocks": {
-        "1633288157723b92be-0": {
+        "e2ac814d-425a-44e0-ac91-2f089e1a93e8": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "",
+            "text": ""
           }
         },
         "1633288157723b92be-1": {
@@ -44,19 +44,19 @@
             "text": "<p>Screen Skinz are the only screen protectors licensed within the NFL, MLB, NBA, NCAA.<\/p>"
           }
         },
-        "63c0e92b-e3b8-4e1f-bbea-6694fb336d6a": {
+        "e1e9c0d4-db1c-4910-b5c8-0be5ad6c1a4b": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "title": "",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "1633288157723b92be-0",
+        "e2ac814d-425a-44e0-ac91-2f089e1a93e8",
         "1633288157723b92be-1",
         "1633288157723b92be-2",
-        "63c0e92b-e3b8-4e1f-bbea-6694fb336d6a"
+        "e1e9c0d4-db1c-4910-b5c8-0be5ad6c1a4b"
       ],
       "settings": {
         "title": "",
