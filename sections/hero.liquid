@@ -1,8 +1,10 @@
+<!-- Resources -->
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
+<!-- HTML -->
 <div class="header-container"> 
    <img class="hero-title" loading="lazy" src="{{ 'hp-hero-title.png' | asset_url }}" alt="Protection. Fashion. Passion." />
-   <img class="hero-gif" loading="lazy" src="{{ 'hp-hero.gif' | asset_url }}" alt="Screen Proctectors">
+   <img class="hero" loading="lazy" src="{{ 'hp-hero.gif' | asset_url }}" alt="Screen Proctectors"/>
     {%- for block in section.blocks -%}
     {%- case block.type -%}
         {%- when 'button' -%}
@@ -13,7 +15,7 @@
     {%- endfor -%}
 </div>
 
-
+<!-- Schema -->
 {% schema %}
 {
   "name": "Hero",
