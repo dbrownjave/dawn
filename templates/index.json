@@ -1,49 +1,25 @@
 {
   "sections": {
-    "rich_text": {
-      "type": "rich-text",
+    "16332812169527959d": {
+      "type": "hero",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
+        "614721d2-f402-4bd1-82c8-19eef9262cc3": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Buy Now",
             "button_link": "",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "614721d2-f402-4bd1-82c8-19eef9262cc3"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1633175040bc75a3e6": {
-      "type": "section-title",
-      "settings": {
-        "section_title": "Ditch boring screen protection and protect your phone in style!"
       }
     }
   },
   "order": [
-    "rich_text",
-    "1633175040bc75a3e6"
+    "16332812169527959d"
   ]
 }
