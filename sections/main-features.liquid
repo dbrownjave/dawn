@@ -1,0 +1,106 @@
+{{ 'section-main-features.css' | asset_url | stylesheet_tag }}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+
+<div class="feature-contianer">
+    <div>
+        {%- for block in section.blocks -%}
+        {%- case block.type -%}
+        {%- when 'heading' -%}
+        <h1 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape
+            }}</h2>
+            {%- endcase -%}
+            {%- endfor -%}
+    </div>
+    <div>
+        {%- if section.settings.image != blank -%}
+        <img class="product-img" src="{{ section.settings.image | img_url: '1500x' }}"
+            alt="{{ section.settings.image.alt | escape }}" loading="lazy" />
+        {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+    </div>
+    <div class="feature-list-container">
+    {%- for block in section.blocks -%}
+    {%- case block.type -%}
+    {%- when 'feature' -%}
+    <div class="item">
+        {%- render 'icon-circle-check' -%}
+        <span>{{ block.settings.title}}</span>
+    </div>
+    {%- endcase -%}
+    {%- endfor -%}
+</div>
+     
+</div>
+
+<!-- 
+<div class="feature-list-container">
+    <div class="item">
+        {%- render 'icon-circle-check' -%}
+        <span>Edge to edge protection</span>
+    </div>
+    <div class="item">
+        {%- render 'icon-circle-check' -%}
+        <span>Edge to edge protection</span>
+    </div>
+    <div class="item">
+        {%- render 'icon-circle-check' -%}
+        <span>Edge to edge protection</span>
+    </div>
+    <div class="item">
+        {%- render 'icon-circle-check' -%}
+        <span>Edge to edge protection</span>
+    </div>
+</div> -->
+{% schema %}
+{
+    "name": "Feature Details",
+    "settings": [
+       {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+       }
+    ],
+    "blocks": [
+       {
+          "type": "heading",
+          "name": "Heading",
+          "limit": 1,
+          "settings": [
+             {
+                "type": "text",
+                "id": "heading",
+                "default": "Title",
+                "label": "Section Title"
+             }
+          ]
+            },
+        {
+            "type": "feature",
+            "name": "Feature",
+            "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Feature"
+            }
+            ]
+        }
+    ],
+    "presets": [
+       {
+          "name": "Features",
+          "blocks": [
+             {
+                "type": "heading"
+             },
+             {
+                 "type": "feature"
+             }
+          ]
+       }
+    ]
+ }
+
+{% endschema %}
