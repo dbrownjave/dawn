@@ -1,9 +1,5 @@
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
-
-<div class="{% unless section.settings.full_width %}page-width{% endunless %}">
 <div class="header-container"> 
    <img class="hero-title" loading="lazy" src="{{ 'hp-hero-title.png' | asset_url }}" alt="Protection. Fashion. Passion." />
    <img class="hero-gif" loading="lazy" src="{{ 'hp-hero.gif' | asset_url }}" alt="Screen Proctectors">
@@ -15,7 +11,6 @@
           </a>
       {%- endcase -%}
     {%- endfor -%}
-</div>
 </div>
 
 
