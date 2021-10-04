@@ -25,7 +25,7 @@
   border: 1px solid #e0e0e0 !important;
   border-radius: 6px;
   transition: all 0.33s ease-in;
-  margin: auto;
+  margin: 16px auto;
 }
 
 .faq-content {
