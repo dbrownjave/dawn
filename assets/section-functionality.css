@@ -17,8 +17,8 @@
     margin-top: 40px;
 }
 
-.input[type=checkbox] {
-    display: hidden !important;
+input[type=checkbox] {
+    /* visibility: hidden !important; */
 }
 
 /* just outer white box, not necessary for functionality */
