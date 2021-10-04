@@ -30,6 +30,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -40,6 +41,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -50,6 +52,34 @@
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
+          }
+        },
+        "5f161a4b-a12d-4a59-97dd-6c9c3187900b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "e587cf3c-0f75-45c7-9344-7c488e5682a0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "81159a8a-34c8-4952-be71-93159f0fd5e6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         }
       },
@@ -62,14 +92,27 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "5f161a4b-a12d-4a59-97dd-6c9c3187900b",
+        "e587cf3c-0f75-45c7-9344-7c488e5682a0",
+        "81159a8a-34c8-4952-be71-93159f0fd5e6"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },
