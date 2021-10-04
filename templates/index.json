@@ -69,24 +69,6 @@
         "swipe_on_mobile": false
       }
     },
-    "1633315350a7750363": {
-      "type": "apps",
-      "blocks": {
-        "fbfb5f23-6936-40a2-83a5-0b719c1f4f86": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080,
-            "show_header": true
-          }
-        }
-      },
-      "block_order": [
-        "fbfb5f23-6936-40a2-83a5-0b719c1f4f86"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1633363769eb3b0569": {
       "type": "functionality",
       "settings": {
@@ -136,6 +118,30 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main-floating-phone.png"
+      }
+    },
+    "1633364091eb637b7c": {
+      "type": "reviews",
+      "settings": {
+        "heading": "Reviews"
+      }
+    },
+    "1633315350a7750363": {
+      "type": "apps",
+      "blocks": {
+        "fbfb5f23-6936-40a2-83a5-0b719c1f4f86": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080,
+            "show_header": true
+          }
+        }
+      },
+      "block_order": [
+        "fbfb5f23-6936-40a2-83a5-0b719c1f4f86"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "16333639178249acdb": {
@@ -196,9 +202,10 @@
   "order": [
     "16332812169527959d",
     "1633288157723b92be",
-    "1633315350a7750363",
     "1633363769eb3b0569",
     "1633363780a77619f3",
+    "1633364091eb637b7c",
+    "1633315350a7750363",
     "16333639178249acdb",
     "163336392091c5aa49"
   ]
