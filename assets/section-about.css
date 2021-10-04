@@ -1,30 +1,35 @@
 .section-container {
   text-align: center;
+  margin-bottom: 64px;
+}
+.heading {
+  margin: 44px 0px;
 }
 
 .member-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: flex-start;
   padding: 44px;
-  row-gap: 16px;
 }
 
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+}
 .career {
   font-weight: 500;
   color: #53c0e9;
 }
 
 .avatar {
+  width: 250px;
   height: 250px;
   border-radius: 0px 20px 20px 20px;
   object-fit: cover;
   transition: all 0.3s ease-in-out;
-  border: 5px solid #005A9D;
+  border: 5px solid #005a9d;
   box-sizing: border-box;
-filter: drop-shadow(0px 40px 20px rgba(13, 102, 134, 0.12));
-
+  filter: drop-shadow(0px 40px 20px rgba(13, 102, 134, 0.12));
+  margin-top: 12px;;
 }
 
 .avatar:hover {
@@ -34,4 +39,18 @@ filter: drop-shadow(0px 40px 20px rgba(13, 102, 134, 0.12));
 
 .details {
   text-align: left;
+}
+
+.container {}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 600px) {
+  .avatar {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 750px) {
 }

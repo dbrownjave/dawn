@@ -3,37 +3,40 @@
 
 
 <div class="section-container">
-            <div>
-               {%- for block in section.blocks -%}
-               {%- case block.type -%}
-               {%- when 'heading' -%}
-               <h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape
-                   }}</h1>
-                   {%- endcase -%}
-                   {%- endfor -%}
-           </div>
-            <div class="team-container">
-                  {%- for block in section.blocks -%}
-                  {%- case block.type -%}
-                  {%- when 'member' -%}
-                  <div class="member-container">
-                    <div>
-                        {%- if block.settings.avatar != blank -%}
-                        <img class="avatar" src="{{ block.settings.avatar | img_url: '1500x' }}"loading="lazy" />
-                        {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-                        {%- endif -%}
-                    </div>
-                    <div class="details">
-                    <h1>{{ block.settings.name }}</h1>
-                    <p class="career"><b>{{ block.settings.career }}</b></p>
-                    <p>{{ block.settings.bio }}</p>
-                </div>
-                  </div>
-                  {%- endcase -%}
-                  {%- endfor -%}
+   <!-- Title -->
+   <div class="heading">
+       {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading' -%}
+       <h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h1>
+       {%- endcase -%} {%- endfor -%}
+   </div>
+   <div class="container">
+<!-- Members -->
+   {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'member' -%}
+   <div class="member-container">
+      <div class="row gx-5">
+         
+               {%- if block.settings.avatar != blank -%}
+               <div class="col-lg-4">
+               <img class="avatar" src="{{ block.settings.avatar | img_url: '1500x' }}" loading="lazy" />
             </div>
-    </div>
+               {%- else -%} {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }} {%- endif -%}
+           <div class="details class="col-lg-6"">
+           <div class="details">
+               <div class="name">{{ block.settings.name }}</div>
+               <p class="career"><b>{{ block.settings.career }}</b></p>
+               <p>{{ block.settings.bio }}</p>
+           </div>
+         </div>
+       </div>
+      </div>
+
+       
+       {%- endcase -%} {%- endfor -%}
+   </div>
+</div>
+</div>
+
+
 
 
 {% schema %}
