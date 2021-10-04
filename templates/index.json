@@ -99,19 +99,40 @@
         "1633363780a77619f3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Title"
+            "heading": "Features"
           }
         },
         "1633363780a77619f3-1": {
           "type": "feature",
           "settings": {
-            "title": ""
+            "title": "Premium 0.33mm tempered glass"
+          }
+        },
+        "e5b193aa-5fa7-4608-82fb-ac688c967e40": {
+          "type": "feature",
+          "settings": {
+            "title": "Edge to edge protection"
+          }
+        },
+        "329c5408-2f8f-47eb-90e2-ecc71745b73e": {
+          "type": "feature",
+          "settings": {
+            "title": "Resist scratches, scuffs, and drops"
+          }
+        },
+        "25a7a9e5-d161-4ed2-9ce4-f29424895503": {
+          "type": "feature",
+          "settings": {
+            "title": "Case friendly"
           }
         }
       },
       "block_order": [
         "1633363780a77619f3-0",
-        "1633363780a77619f3-1"
+        "1633363780a77619f3-1",
+        "e5b193aa-5fa7-4608-82fb-ac688c967e40",
+        "329c5408-2f8f-47eb-90e2-ecc71745b73e",
+        "25a7a9e5-d161-4ed2-9ce4-f29424895503"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main-floating-phone.png"
