@@ -5,6 +5,7 @@
       "blocks": {
         "614721d2-f402-4bd1-82c8-19eef9262cc3": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Buy Now",
             "button_link": "",
