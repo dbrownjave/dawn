@@ -67,14 +67,15 @@
         "e587cf3c-0f75-45c7-9344-7c488e5682a0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Installation",
+            "content": "<p>1. Work in a clean and well-lit area.<\/p><p>2. Clean the screen with the wet wipe<\/p><p>3. Wipe off the screen with the microfiber cloth that came with the tempered glass.<\/p><p>4. Peel off the protective layer from the adhesive side of the glass<\/p><p><strong>5. <\/strong>Align the tempered glass with your phone screen.<\/p><p>6. Place the glass on the screen when it is lined up and press the bottom and glide your finger across the screen.<\/p><p>7. Use the lint-free cloth to wipe away any air bubbles from the center outwards<\/p>",
             "page": "",
             "icon": "check_mark"
           }
         },
         "81159a8a-34c8-4952-be71-93159f0fd5e6": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "content": "",
