@@ -6,7 +6,7 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 30px;
     margin-bottom: 120px;
 }
 
@@ -18,14 +18,13 @@
 }
 
 input[type=checkbox] {
-    /* visibility: hidden !important; */
+    visibility: hidden !important;
 }
 
 /* just outer white box, not necessary for functionality */
 .toggle-checkbox-wrapper {
-    background-color: #fff;
-    padding: 24px;
-    max-width: 50px !important;
+  margin: auto;
+  padding-right: 40px;
   }
   
   /* toggle styling starts here */
