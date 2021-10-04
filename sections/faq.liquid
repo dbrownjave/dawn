@@ -4,22 +4,21 @@
 
 <div class="container">
     <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
-        <div class="rich-text color-{{ section.settings.color_scheme }}">
-          <div class="rich-text__blocks">
             <div>
                {%- for block in section.blocks -%}
                {%- case block.type -%}
                {%- when 'heading' -%}
-               <h1 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape
-                   }}</h2>
+               <h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape
+                   }}</h1>
                    {%- endcase -%}
                    {%- endfor -%}
            </div>
+   
             <div class="faq-container">
                <div class="feature-list-container">
                   {%- for block in section.blocks -%}
                   {%- case block.type -%}
-                  {%- when 'aq' -%}
+                  {%- when 'aqblock' -%}
                   <details>
                      <summary>{{ block.settings.question }} </summary>
                      <div class="faq-content">
