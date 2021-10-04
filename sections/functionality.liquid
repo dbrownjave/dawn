@@ -1,0 +1,39 @@
+{{ 'section-functionality.css' | asset_url | stylesheet_tag }}
+{{ 'toogle-switch.js' | asset_url | script_tag }}
+
+
+<div class="container">
+    <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+        <div class="rich-text color-{{ section.settings.color_scheme }}">
+          <div class="rich-text__blocks">
+            <h1 class="{{ settings.heading_size }}" {{ block.shopify_attributes }}>{{ section.settings.heading | escape }}</h2>
+            <img id="iphone" class="device" loading="lazy" src="{{ 'main-iphone-off.png' | asset_url }}" alt="" />
+            <div>
+        </div>
+        <div class="toggle-checkbox-wrapper">
+            <input onchange="onSwitchToggle()" class="toggle-checkbox" type="checkbox" id="toggle">
+            <label class="slider" for="toggle">
+            </label>
+          </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Product Functionality",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.rich-text.blocks.heading.settings.heading.label",
+      "default": "How Does it Work?"
+    }
+],
+  "presets": [
+    {
+      "name": "Functionality"
+    }
+  ]
+}
+{% endschema %}
