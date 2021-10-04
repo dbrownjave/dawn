@@ -86,11 +86,43 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1633363769eb3b0569": {
+      "type": "functionality",
+      "settings": {
+        "heading": "How Does it Work?"
+      }
+    },
+    "1633363780a77619f3": {
+      "type": "main-features",
+      "blocks": {
+        "1633363780a77619f3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Title"
+          }
+        },
+        "1633363780a77619f3-1": {
+          "type": "feature",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "1633363780a77619f3-0",
+        "1633363780a77619f3-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main-floating-phone.png"
+      }
     }
   },
   "order": [
     "16332812169527959d",
     "1633288157723b92be",
-    "1633315350a7750363"
+    "1633315350a7750363",
+    "1633363769eb3b0569",
+    "1633363780a77619f3"
   ]
 }
