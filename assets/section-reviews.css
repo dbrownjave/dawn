@@ -1,0 +1,8 @@
+.review-container {
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    flex-direction: column;
+    text-align: left;
+  }
+  

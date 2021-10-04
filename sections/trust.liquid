@@ -2,23 +2,23 @@
 
 <div class="container">
     <div>
-    <h1 class="{{ settings.heading_size }}" {{ block.shopify_attributes }}>{{ section.settings.heading | escape }}</h1>
-</div>
+        <h1 class="{{ settings.heading_size }}" {{ block.shopify_attributes }}>{{ section.settings.heading | escape }}</h1>
+    </div>
     <div class="content-container">
         <div class="fanatics-block block">
             <img class="fanatics-logo" loading="lazy" src="{{ 'fanatics-logo.png' | asset_url }}" alt="Protection. Fashion. Passion." />
-            <p>Screen Skinz are Sold on Fanatics
-                The official retail partner for the NFL, MLB, NBA, and NHL.</p>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-            <div class="shop-btn">Shop</div>
-        </a>
+            <p>Screen Skinz are Sold on Fanatics The official retail partner for the NFL, MLB, NBA, and NHL.</p>
+            <a href="https://www.fanatics.com/" target="_blank">
+                <div class="shop-btn">Shop</div>
+            </a>
         </div>
         <div class="licenses-block block">
-            <img class="licenses-logo " loading="lazy" src="{{ 'licenses-logo.png' | asset_url }}" alt="Protection. Fashion. Passion." />
+            <img class="licenses-logo" loading="lazy" src="{{ 'licenses-logo.png' | asset_url }}" alt="Protection. Fashion. Passion." />
             <p>Screen Skinz Products are Officially Licensed The only screen protector licensed within the NFL, MLB, NBA, and NCAA</p>
         </div>
     </div>
 </div>
+
 
 
 {% schema %}

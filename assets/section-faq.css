@@ -1,66 +1,81 @@
+.absolute-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-.container {
+.section-container {
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  width: 100%;
 }
 
 .faq-container {
-    margin: 32px 0;
+  margin: 32px 0;
+  width: 100%;
 }
 
 .faq-container summary {
-    font-size: 15px;
-    color: #333;
-    font-weight: 600;
-    padding: 12px;
-    margin-bottom: 1rem;
-    text-align: left;
-    cursor: pointer;
-    position: relative;
-    border: 1px solid #E0E0E0 !important;
-    border-radius: 6px;
-    transition: all .33s ease-in;
-  }
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+  padding: 12px;
+  margin-bottom: 1rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 6px;
+  transition: all 0.33s ease-in;
+  width: 80%;
+  margin: auto;
+}
 
+.faq-content {
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.faq-container summary:hover {
+  transition: all 0.33s ease-in;
+}
+
+.faq-container summary:active {
+  transition: all 0.33s ease-in;
+}
+
+.faq-container summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+  transition: all 0.33s ease-in;
+}
+.faq-row[open] > .faq-container summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+  font-size: large;
+  transition: all 0.33s ease-in;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+  transition: all 0.33s ease-in;
+}
+
+@media screen and (min-width: 300px) {
+  .faq-container summary {
+    width: 80%;
+  }
   .faq-content {
-    text-align: left;
+    width: 80%;
   }
-  .faq-container summary:hover {
-    transition: all .33s ease-in;
-  }
+}
 
-  .faq-container summary:active {
-    transition: all .33s ease-in;
+@media screen and (min-width: 600px) {
+  .faq-container summary {
+    width: 54%;
   }
-
-  .faq-container summary::after {
-    position: absolute;
-    content: "+";
-    right: 20px;
-    transition: all .33s ease-in;
+  .faq-content {
+    width: 54%;
   }
-  .faq-row[open] > .faq-container summary::after {
-    position: absolute;
-    content: "-";
-    right: 20px;
-    font-size: large;
-    transition: all .33s ease-in;
-  }
-  details > summary::-webkit-details-marker {
-    display: none;
-    transition: all .33s ease-in;
-  }
-/* 
-  details[open] summary ~ * {
-    animation: sweep .33s ease-in-out;
-  }
-  @keyframes sweep {
-    0%    {opacity: 0; margin-top: -10px}
-    100%  {opacity: 1; margin-top: 0px}
-  } */
-
-  /* How does it protect screen? */
-
-  /* "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." */
+}
