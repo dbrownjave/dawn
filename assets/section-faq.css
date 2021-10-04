@@ -11,7 +11,6 @@
 
 .faq-container {
   margin: 32px 0;
-  width: 100%;
 }
 
 .faq-container summary {
@@ -26,7 +25,6 @@
   border: 1px solid #e0e0e0 !important;
   border-radius: 6px;
   transition: all 0.33s ease-in;
-  width: 80%;
   margin: auto;
 }
 
@@ -65,18 +63,18 @@ details > summary::-webkit-details-marker {
 
 @media screen and (min-width: 300px) {
   .faq-container summary {
-    width: 80%;
+    width: 350px;
   }
   .faq-content {
-    width: 80%;
+    width: 350px;
   }
 }
 
 @media screen and (min-width: 600px) {
   .faq-container summary {
-    width: 54%;
+    width: 800px;
   }
   .faq-content {
-    width: 54%;
+    width: 800px;
   }
 }
