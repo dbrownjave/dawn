@@ -1,0 +1,22 @@
+.subtitle {
+    text-align: left;
+    color: black;
+    font-size: 24px;
+}
+
+.league-icon {
+    height: 30px;
+}
+
+.league-icon-text {
+    font-size: 16px;
+}
+
+.league-icon-collection {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 8px;
+    background-color: lavenderblush;
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+{{ 'shop-league-collection.css' | asset_url | stylesheet_tag }}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+
+
+<div class="section-container">
+   <!-- Title -->
+   <div class="heading">
+       {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading' -%}
+       <h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h1>
+       {%- endcase -%} {%- endfor -%}
+   </div>
+   <div class="container">
+
+</div>
+<div class="col-12">
+    <h2 class="subtitle"> iPhone</h2>
+    <div class="league-icon-collection" >
+     <img class="league-icon d-inline" loading="lazy" src="{{ 'ncaa-logo.png' | asset_url }}" alt="Protection. Fashion. Passion." />
+     <p class="league-icon-text d-inline" >NCAA</p> 
+    </div>
+    <h2 class="subtitle"> Popular</h2>
+</div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Shop By League",
+    "blocks": [
+       {
+          "type": "heading",
+          "name": "Heading",
+          "limit": 1,
+          "settings": [
+             {
+                "type": "text",
+                "id": "heading",
+                "default": "Title",
+                "label": "Title"
+             }
+            ]
+             }
+    ],
+    "presets": [
+       {
+          "name": "Shop By League",
+          "blocks": [
+             {
+                "type": "heading"
+             }
+          ]
+       }
+    ]
+ }
+{% endschema %}
