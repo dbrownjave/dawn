@@ -6,7 +6,7 @@
     display: -ms-flexbox;
     display: flex;
     text-align: center;
-    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .device {
@@ -23,7 +23,7 @@ input[type=checkbox] {
 /* just outer white box, not necessary for functionality */
 .toggle-checkbox-wrapper {
   margin: auto;
-  padding-right: 40px;
+  padding-right: 80px;
   }
   
   /* toggle styling starts here */
@@ -42,11 +42,11 @@ input[type=checkbox] {
     border-radius: 34px;
     bottom: 0;
     content: '';
-    height: 24px;
+    height: 36px;
     margin: auto;
     position: absolute;
     top: 0;
-    width: 40px;
+    width: 60px;
   }
   
   /* circle */
@@ -55,13 +55,13 @@ input[type=checkbox] {
     border-radius: 50%;
     bottom: 0;
     content: '';
-    height: 16px;
+    height: 24px;
     left: 4px;
     margin: auto;
     position: absolute;
     top: 0;
     transition: 0.4s;
-    width: 16px;
+    width: 24px;
   }
   
   .toggle-switch {
@@ -84,7 +84,7 @@ input[type=checkbox] {
   
   .toggle-checkbox:checked + .slider::after {
     background-color: rgb(255, 255, 255);
-    transform: translateX(16px);
+    transform: translateX(24px);
   }
   
   .toggle-checkbox:checked ~ .slider > .toggle-switch.opt1 {
@@ -93,4 +93,8 @@ input[type=checkbox] {
   
   .toggle-checkbox:checked ~ .slider > .toggle-switch.opt2 {
     display: inline-block;
+  }
+
+  .click-tag {
+    font-size: 18px;
   }
