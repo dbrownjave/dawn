@@ -54,7 +54,7 @@
 /* Dynamic checkout */
 
 .shopify-payment-button__button {
-  border-radius: 0;
+  border-radius: 4.6rem;
   font-family: inherit;
   min-height: 4.6rem;
 }
