@@ -1,0 +1,37 @@
+.section-container {
+  text-align: center;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 44px;
+  row-gap: 16px;
+}
+
+.career {
+  font-weight: 500;
+  color: #53c0e9;
+}
+
+.avatar {
+  height: 250px;
+  border-radius: 0px 20px 20px 20px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+  border: 5px solid #005A9D;
+  box-sizing: border-box;
+filter: drop-shadow(0px 40px 20px rgba(13, 102, 134, 0.12));
+
+}
+
+.avatar:hover {
+  filter: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.details {
+  text-align: left;
+}
