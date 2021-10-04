@@ -58,8 +58,8 @@
         "5f161a4b-a12d-4a59-97dd-6c9c3187900b": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible tab",
-            "content": "",
+            "heading": "Shipping",
+            "content": "<p>All products ship within 1-2 business days. <\/p><p>Standard shipping is 2 Day USPS<\/p>",
             "page": "",
             "icon": "check_mark"
           }
