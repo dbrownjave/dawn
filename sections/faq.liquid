@@ -1,0 +1,101 @@
+{{ 'section-faq.css' | asset_url | stylesheet_tag }}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
+
+
+<div class="container">
+    <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+        <div class="rich-text color-{{ section.settings.color_scheme }}">
+          <div class="rich-text__blocks">
+            <div>
+               {%- for block in section.blocks -%}
+               {%- case block.type -%}
+               {%- when 'heading' -%}
+               <h1 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape
+                   }}</h2>
+                   {%- endcase -%}
+                   {%- endfor -%}
+           </div>
+            <div class="faq-container">
+               <div class="feature-list-container">
+                  {%- for block in section.blocks -%}
+                  {%- case block.type -%}
+                  {%- when 'aq' -%}
+                  <details>
+                     <summary>{{ block.settings.question }} </summary>
+                     <div class="faq-content">
+                       <p>{{ block.settings.answer}}</p>
+                     </div>
+                   </details>
+                  {%- endcase -%}
+                  {%- endfor -%}
+              </div>  
+            </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+{% schema %}
+{
+    "name": "FAQ",
+    "blocks": [
+       {
+          "type": "heading",
+          "name": "Heading",
+          "limit": 1,
+          "settings": [
+             {
+                "type": "text",
+                "id": "heading",
+                "default": "Title",
+                "label": "Title"
+             }
+            ]
+             },
+             {
+               "type": "aqblock",
+               "name": "Question & Answer",
+               "settings": [
+               {
+                  "type": "text",
+                  "id": "answer",
+                  "label": "Answer"
+              },
+               {
+                   "type": "text",
+                   "id": "question",
+                   "label": "Question"
+               }
+            ]
+       }
+    ],
+    "presets": [
+       {
+          "name": "FAQ",
+          "blocks": [
+             {
+                "type": "heading"
+             }
+          ]
+       }
+    ]
+ }
+{% endschema %}
+
+<!-- {
+    "type": "text",
+    "name": "Question",
+    "settings": [
+    {
+        "type": "text",
+        "id": "question",
+        "label": "Question"
+    },
+    {
+        "type": "text",
+        "id": "answer",
+        "label": "Answer"
+    }
+    ]
+} -->
