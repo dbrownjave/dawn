@@ -97,24 +97,6 @@
             "heading": "Shop by League"
           }
         },
-        "72d3ae61-8264-45f9-afc7-fd97a43679de": {
-          "type": "collection",
-          "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
-            "collectionName": "NCAA",
-            "collectionTabIconIndex": "1",
-            "collection": "home-page",
-            "products_to_show": 4,
-            "show_view_all": false,
-            "swipe_on_mobile": true,
-            "image_ratio": "square",
-            "show_secondary_image": false,
-            "add_image_padding": false,
-            "show_image_outline": true,
-            "show_vendor": false,
-            "show_rating": false
-          }
-        },
         "e9f3d133-0a21-4205-91e2-f26396f8a64b": {
           "type": "collection",
           "settings": {
@@ -150,14 +132,32 @@
             "show_vendor": false,
             "show_rating": false
           }
+        },
+        "72d3ae61-8264-45f9-afc7-fd97a43679de": {
+          "type": "collection",
+          "settings": {
+            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
+            "collectionName": "NCAA",
+            "collectionTabIconIndex": "1",
+            "collection": "home-page",
+            "products_to_show": 4,
+            "show_view_all": false,
+            "swipe_on_mobile": true,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
         }
       },
       "block_order": [
         "a962b81e-5fed-4688-ac57-460731b3889b",
         "c1a0f572-6897-4227-868f-4e5bb8c4a118",
-        "72d3ae61-8264-45f9-afc7-fd97a43679de",
         "e9f3d133-0a21-4205-91e2-f26396f8a64b",
-        "54ece3ab-c516-4056-9ca2-f527d718a808"
+        "54ece3ab-c516-4056-9ca2-f527d718a808",
+        "72d3ae61-8264-45f9-afc7-fd97a43679de"
       ],
       "settings": {
       }
