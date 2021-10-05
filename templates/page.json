@@ -20,7 +20,7 @@
           "settings": {
             "avatar": "shopify:\/\/shop_images\/IMG_8239.jpg",
             "name": "Clay Canning",
-            "career": "Designer\/Owner",
+            "career": "Co-Founder CEO",
             "bio": "Clay started his first business back in late 2017 as a side gig in High School. He later went on to design Screen Skinz shortly after and begin his journey to obtain licenses within the collegiate market. He obtained his first license with the Unviersity of South Florida in 2018. Sparking his journey to obtain licenses within the MLB, NBA, and NCAA. Clay is from Lakeland, FL and if there is one thing to know about him, he loves the day to day hustle!"
           }
         },
@@ -29,7 +29,15 @@
           "settings": {
             "avatar": "shopify:\/\/shop_images\/RaShaun_Brown_Headshot_1.jpg",
             "name": "RaShaun Brown",
-            "career": "Co-Founder",
+            "career": "Co-Founder\/COO",
+            "bio": ""
+          }
+        },
+        "17e89870-9746-4a52-ac1b-a90744f5db79": {
+          "type": "member",
+          "settings": {
+            "name": "Nick Vannett",
+            "career": "Co-Founder\/Partner",
             "bio": ""
           }
         }
@@ -37,7 +45,8 @@
       "block_order": [
         "163337254892cd964f-0",
         "3fa72f8b-44c6-4109-a698-eaa903f950f2",
-        "3ae53684-4478-4ed5-befa-0e94d2ec02f0"
+        "3ae53684-4478-4ed5-befa-0e94d2ec02f0",
+        "17e89870-9746-4a52-ac1b-a90744f5db79"
       ],
       "settings": {
       }
