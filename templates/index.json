@@ -70,6 +70,22 @@
         "swipe_on_mobile": false
       }
     },
+    "163343684352576d67": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Select Your League",
+        "collection": "home-page",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": true
+      }
+    },
     "1633363769eb3b0569": {
       "type": "functionality",
       "settings": {
@@ -204,6 +220,7 @@
   "order": [
     "16332812169527959d",
     "1633288157723b92be",
+    "163343684352576d67",
     "1633363769eb3b0569",
     "1633363780a77619f3",
     "1633364091eb637b7c",
