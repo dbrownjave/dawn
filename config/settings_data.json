@@ -11,6 +11,10 @@
     "type_body_font": "roboto_n4",
     "sold_out_badge_color_scheme": "inverse",
     "page_width": "1600",
+    "social_twitter_link": "https:\/\/twitter.com\/screen_skinz?",
+    "social_facebook_link": "https:\/\/www.facebook.com\/ScreenSkinz\/",
+    "social_pinterest_link": "https:\/\/www.tiktok.com\/@screenskinz?",
+    "social_instagram_link": "https:\/\/www.instagram.com\/screenskinz\/?hl=en",
     "favicon": "shopify:\/\/shop_images\/SSZ-logo-10.png",
     "sections": {
       "announcement-bar": {
