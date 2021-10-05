@@ -16,7 +16,6 @@
  
  <div class="collection-container">
     <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
-
 			{%- for block in section.blocks -%}
 			{%- case block.type -%}
 			{%- when 'heading' -%}
@@ -24,9 +23,8 @@
 				}}</h1>
 				{%- endcase -%}
 				{%- endfor -%}
-		
-
 	<h2 class="subtitle">iPhone</h2>
+	<div class="league-icon-collection">
 	<div class="tabset">
 				<!--Tabs -->
 				{%- for block in section.blocks -%} {%- case block.type -%} {%- when 'collection' -%}
@@ -34,8 +32,9 @@
 				<label for="tab{{block.settings.collectionTabIconIndex}}"><span><img class="league-icon" loading="lazy" src="{{ block.settings.collectionTabIcon | img_url: '1500x' }}" alt="Icon" /></span> {{block.settings.collectionName}}</label>
 				{%- endcase -%} {%- endfor -%}
 			</div>
+		</div>
 			<h2 class="subtitle">Popular</h2>
-		
+	
  <!-- Tab Content -->
  <div class="tab-panels">
  <!-- Product Collection  -->
@@ -123,7 +122,7 @@
 		   {
 			  "type": "text",
 			  "id": "heading",
-			  "default": "Title",
+			  "default": "Shop by League",
 			  "label": "Title"
 		   }
 		  ]

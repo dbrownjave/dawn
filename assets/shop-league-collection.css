@@ -26,9 +26,8 @@
 .league-icon-collection {
   display: flex;
   justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.397);
+  /* border: 1px solid rgba(0, 0, 0, 0.397); */
   border-radius: 8px;
-  background-color: lavenderblush;
   width: 100%;
 }
 
