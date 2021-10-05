@@ -73,19 +73,19 @@
     "1633443408f9f0cbd5": {
       "type": "shop-league-collection",
       "blocks": {
-        "72d3ae61-8264-45f9-afc7-fd97a43679de": {
+        "a962b81e-5fed-4688-ac57-460731b3889b": {
           "type": "collection",
           "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
-            "collectionName": "NCAA",
-            "collectionTabIconIndex": "1",
-            "collection": "ncaa",
+            "collectionTabIcon": "shopify:\/\/shop_images\/nfl-logo.png",
+            "collectionName": "NFL",
+            "collectionTabIconIndex": "",
+            "collection": "home-page",
             "products_to_show": 4,
-            "show_view_all": false,
-            "swipe_on_mobile": true,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
             "image_ratio": "square",
             "show_secondary_image": false,
-            "add_image_padding": true,
+            "add_image_padding": false,
             "show_image_outline": true,
             "show_vendor": false,
             "show_rating": false
@@ -97,19 +97,55 @@
             "heading": "Shop by League"
           }
         },
+        "72d3ae61-8264-45f9-afc7-fd97a43679de": {
+          "type": "collection",
+          "settings": {
+            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
+            "collectionName": "NCAA",
+            "collectionTabIconIndex": "1",
+            "collection": "home-page",
+            "products_to_show": 4,
+            "show_view_all": false,
+            "swipe_on_mobile": true,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
         "e9f3d133-0a21-4205-91e2-f26396f8a64b": {
           "type": "collection",
           "settings": {
             "collectionTabIcon": "shopify:\/\/shop_images\/mlb-logo.png",
             "collectionName": "MLB",
             "collectionTabIconIndex": "2",
-            "collection": "mlb",
+            "collection": "home-page",
             "products_to_show": 4,
             "show_view_all": true,
             "swipe_on_mobile": false,
             "image_ratio": "square",
             "show_secondary_image": false,
-            "add_image_padding": true,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "54ece3ab-c516-4056-9ca2-f527d718a808": {
+          "type": "collection",
+          "settings": {
+            "collectionTabIcon": "shopify:\/\/shop_images\/NBA.png",
+            "collectionName": "NBA",
+            "collectionTabIconIndex": "",
+            "collection": "",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "add_image_padding": false,
             "show_image_outline": true,
             "show_vendor": false,
             "show_rating": false
@@ -117,9 +153,11 @@
         }
       },
       "block_order": [
-        "72d3ae61-8264-45f9-afc7-fd97a43679de",
+        "a962b81e-5fed-4688-ac57-460731b3889b",
         "c1a0f572-6897-4227-868f-4e5bb8c4a118",
-        "e9f3d133-0a21-4205-91e2-f26396f8a64b"
+        "72d3ae61-8264-45f9-afc7-fd97a43679de",
+        "e9f3d133-0a21-4205-91e2-f26396f8a64b",
+        "54ece3ab-c516-4056-9ca2-f527d718a808"
       ],
       "settings": {
       }
