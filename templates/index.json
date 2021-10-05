@@ -97,11 +97,30 @@
           "settings": {
             "heading": "Title"
           }
+        },
+        "e9f3d133-0a21-4205-91e2-f26396f8a64b": {
+          "type": "collection",
+          "settings": {
+            "collectionTabIcon": "shopify:\/\/shop_images\/mlb-logo.png",
+            "collectionName": "MLB",
+            "collectionTabIconIndex": "2",
+            "collection": "mlb",
+            "products_to_show": 4,
+            "show_view_all": true,
+            "swipe_on_mobile": false,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "add_image_padding": true,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
         }
       },
       "block_order": [
         "72d3ae61-8264-45f9-afc7-fd97a43679de",
-        "c1a0f572-6897-4227-868f-4e5bb8c4a118"
+        "c1a0f572-6897-4227-868f-4e5bb8c4a118",
+        "e9f3d133-0a21-4205-91e2-f26396f8a64b"
       ],
       "settings": {
       }
