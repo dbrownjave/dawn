@@ -76,15 +76,16 @@
         "72d3ae61-8264-45f9-afc7-fd97a43679de": {
           "type": "collection",
           "settings": {
-            "collectionName": "",
-            "collectionTabIconIndex": "",
-            "collection": "home-page",
+            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
+            "collectionName": "NCAA",
+            "collectionTabIconIndex": "1",
+            "collection": "ncaa",
             "products_to_show": 4,
             "show_view_all": false,
             "swipe_on_mobile": true,
             "image_ratio": "square",
             "show_secondary_image": false,
-            "add_image_padding": false,
+            "add_image_padding": true,
             "show_image_outline": true,
             "show_vendor": false,
             "show_rating": false
