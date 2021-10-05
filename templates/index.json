@@ -70,6 +70,41 @@
         "swipe_on_mobile": false
       }
     },
+    "1633443408f9f0cbd5": {
+      "type": "shop-league-collection",
+      "blocks": {
+        "72d3ae61-8264-45f9-afc7-fd97a43679de": {
+          "type": "collection",
+          "settings": {
+            "collectionName": "",
+            "collectionTabIconIndex": "",
+            "collection": "home-page",
+            "products_to_show": 4,
+            "show_view_all": false,
+            "swipe_on_mobile": true,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "add_image_padding": false,
+            "show_image_outline": true,
+            "show_vendor": false,
+            "show_rating": false
+          }
+        },
+        "c1a0f572-6897-4227-868f-4e5bb8c4a118": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Title"
+          }
+        }
+      },
+      "block_order": [
+        "72d3ae61-8264-45f9-afc7-fd97a43679de",
+        "c1a0f572-6897-4227-868f-4e5bb8c4a118"
+      ],
+      "settings": {
+      }
+    },
     "163343684352576d67": {
       "type": "featured-collection",
       "settings": {
@@ -220,6 +255,7 @@
   "order": [
     "16332812169527959d",
     "1633288157723b92be",
+    "1633443408f9f0cbd5",
     "163343684352576d67",
     "1633363769eb3b0569",
     "1633363780a77619f3",
