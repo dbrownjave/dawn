@@ -3,20 +3,29 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
-
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <script src="{{'shop-league-collection.js' | asset_url }}" defer></script>
 
 <!-- Title -->
-<!-- <div class="heading">
-	{%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading' -%}
-	<h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h1>
-	{%- endcase -%} {%- endfor -%}
- </div> -->
+
  
- <div class="col-12">
+ <div class="collection-container">
+    <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+
+			{%- for block in section.blocks -%}
+			{%- case block.type -%}
+			{%- when 'heading' -%}
+			<h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape
+				}}</h1>
+				{%- endcase -%}
+				{%- endfor -%}
+		
+
 	<h2 class="subtitle">iPhone</h2>
 	<div class="tabset">
 				<!--Tabs -->
@@ -26,7 +35,7 @@
 				{%- endcase -%} {%- endfor -%}
 			</div>
 			<h2 class="subtitle">Popular</h2>
-		</div>
+		
  <!-- Tab Content -->
  <div class="tab-panels">
  <!-- Product Collection  -->
@@ -99,13 +108,26 @@
 	</div>
  {%- endfor -%}
    </div>
-
+</div>
+</div>
 
 {% schema %}
 {
 	"name": "Shop by League",
 	"blocks": [
-
+	{
+		"type": "heading",
+		"name": "Heading",
+		"limit": 1,
+		"settings": [
+		   {
+			  "type": "text",
+			  "id": "heading",
+			  "default": "Title",
+			  "label": "Title"
+		   }
+		  ]
+		   },
 		{
 			"type": "collection",
 			"name": "Product Collection",
