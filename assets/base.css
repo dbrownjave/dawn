@@ -4,6 +4,12 @@
   src: url('Barlow-SemiBold.ttf') format('opentype');
 }
 
+
+/* Custom  */
+.content-container {
+    margin-top: 40px;
+}
+
 /* Color custom properties */
 
 :root,
