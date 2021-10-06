@@ -1,7 +1,14 @@
+.about-section {
+  text-align: justify;
+}
+
+.about {
+  text-align: center;
+}
 .section-container {
   text-align: center;
-  margin-bottom: 64px;
 }
+
 .heading {
   margin: 44px 0px;
 }
@@ -41,7 +48,6 @@
   text-align: left;
 }
 
-.container {}
 
 @media screen and (max-width: 992px) {
 }

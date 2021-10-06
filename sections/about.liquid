@@ -2,12 +2,11 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 
-<div class="section-container">
+<section class="section-container ">
    <!-- Title -->
-   <div class="heading">
-       {%- for block in section.blocks -%} {%- case block.type -%} {%- when 'heading' -%}
-       <h1 class="{{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h1>
-       {%- endcase -%} {%- endfor -%}
+   <div class="about-section container section-vertical--space">
+      <h1 class="{{ section.settings.heading_size }} text-center">{{ section.settings.heading | escape }}</h1>
+      <p class="mt-5">{{ section.settings.about_description }}</p>
    </div>
    <div class="container">
 <!-- Members -->
@@ -29,33 +28,31 @@
          </div>
        </div>
       </div>
-
-       
-       {%- endcase -%} {%- endfor -%}
+       {%- endcase -%}
+      {%- endfor -%}
    </div>
-</div>
-</div>
-
+</section>
 
 
 
 {% schema %}
 {
     "name": "About",
+    "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "About Screen Skinz",
+      "label": "Title"
+   }, 
+   {
+      "type": "textarea",
+       "id": "about_description",
+       "label": "About",
+       "placeholder": "Description about the company"
+      }
+    ],
     "blocks": [
-       {
-          "type": "heading",
-          "name": "Heading",
-          "limit": 1,
-          "settings": [
-             {
-                "type": "text",
-                "id": "heading",
-                "default": "Title",
-                "label": "Title"
-             }
-            ]
-             },
              {
                "type": "member",
                "name": "Member",
@@ -81,16 +78,6 @@
                 "label": "Bio"
             }  
             ]
-       }
-    ],
-    "presets": [
-       {
-          "name": "About",
-          "blocks": [
-             {
-                "type": "heading"
-             }
-          ]
        }
     ]
  }
