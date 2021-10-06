@@ -2,7 +2,7 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 
-<section class="section-container ">
+<section class="section-container section-vertical--space">
    <!-- Title -->
    <div class="about-section container section-vertical--space">
       <h1 class="{{ section.settings.heading_size }} text-center">{{ section.settings.heading | escape }}</h1>
@@ -32,7 +32,6 @@
       {%- endfor -%}
    </div>
 </section>
-
 
 
 {% schema %}
