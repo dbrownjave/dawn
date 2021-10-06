@@ -9,12 +9,6 @@
     "163337254892cd964f": {
       "type": "about",
       "blocks": {
-        "163337254892cd964f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Us"
-          }
-        },
         "3fa72f8b-44c6-4109-a698-eaa903f950f2": {
           "type": "member",
           "settings": {
@@ -44,12 +38,13 @@
         }
       },
       "block_order": [
-        "163337254892cd964f-0",
         "3fa72f8b-44c6-4109-a698-eaa903f950f2",
         "3ae53684-4478-4ed5-befa-0e94d2ec02f0",
         "17e89870-9746-4a52-ac1b-a90744f5db79"
       ],
       "settings": {
+        "heading": "About Screen Skinz",
+        "about_description": "Based in Lakeland, Florida, we are a team of innovators that found a market we are passionate about and could make an impact through new product offerings. We combine our industry experience with a shared interest in sports and technology. We build screen protection for our customers to express themselves and PROTECT their phone screen with PASSION. We INNOVATE and COLLABORATE with our customers and brands in mind."
       }
     }
   },
