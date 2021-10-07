@@ -1,10 +1,14 @@
-
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
 
-<div class="header-container"> 
-   <img class="hero-title" loading="lazy" src="{{ 'hp-hero-title.png' | asset_url }}" alt="Protection. Fashion. Passion." />
+<div class="container section-vertical--space"> 
+<div class="title-container">
+  <h1 class="title blue">Protection.</h1>
+  <h1 class="title dark-blue">Fashion.</h1>
+  <h1 class="title light-blue">Passion.</h1>
+</div>
    <img class="hero-img" loading="lazy" src="{{ 'hp-hero.gif' | asset_url }}" alt="Screen Proctectors"/>
+   <p class="product-description"> {{ section.settings.product_description }}</p>
     {%- for block in section.blocks -%}
     {%- case block.type -%}
         {%- when 'button' -%}
@@ -20,6 +24,14 @@
 {
   "name": "Hero",
   "tag": "section",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "product_description",
+      "label": "label",
+      "default": "The product description"
+    }
+  ],
   "presets": [
     {
       "name": "Hero"
@@ -53,3 +65,4 @@
     ]
 }
 {% endschema %}
+

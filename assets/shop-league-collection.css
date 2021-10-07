@@ -1,7 +1,5 @@
 
 .collection-container {
-  margin-top: 80px;
-  margin-bottom: 80px;
   text-align: center;
 }
 
@@ -12,11 +10,11 @@
 }
 
 .league-icon {
-  height: 30px;
+  height: 40px;
 }
 
 .league-icon-text {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .tab-panel-active {
