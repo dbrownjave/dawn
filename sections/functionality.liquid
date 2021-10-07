@@ -2,11 +2,9 @@
 {{ 'toogle-switch.js' | asset_url | script_tag }}
 
 
-<div class="container">
-    <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
-        <div class="rich-text color-{{ section.settings.color_scheme }}">
-          <div class="rich-text__blocks">
+<div class="container section-vertical-space">
             <h1 class="{{ settings.heading_size }}" {{ block.shopify_attributes }}>{{ section.settings.heading | escape }}</h1>
+            <p class="subtitle">Off you see it. On it disappears.</p>
             <img id="iphone" class="device" loading="lazy" src="{{ 'main-iphone-off.png' | asset_url }}" alt="" />
             <div class="toggle-checkbox-wrapper">
                 <input onchange="onSwitchToggle()" class="toggle-checkbox" type="checkbox" id="toggle">
@@ -14,10 +12,8 @@
                 </label>
               </div>
               <p class="click-tag">Click Me</p>
-    </div>
-</div>
-</div>
   </div>
+</div>
 
 {% schema %}
 {
