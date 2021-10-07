@@ -123,7 +123,7 @@
             "collectionTabIcon": "shopify:\/\/shop_images\/NBA.png",
             "collectionName": "NBA",
             "collectionTabIconIndex": "3",
-            "collection": "",
+            "collection": "home-page",
             "products_to_show": 4,
             "show_view_all": false,
             "swipe_on_mobile": false,
