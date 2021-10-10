@@ -28,7 +28,7 @@
 				<!--Tabs -->
 				{%- for block in section.blocks -%} {%- case block.type -%} {%- when 'collection' -%}
 				<input type="radio" name="tabset" id="tab{{block.settings.collectionTabIconIndex}}" aria-controls={{block.settings.collectionName}} {% if block.settings.collectionTabIconIndex == "1" %} checked {% endif %} onchange="onTabChange(this)"/>
-				<label for="tab{{block.settings.collectionTabIconIndex}}"><span><img class="league-icon" loading="lazy" src="{{ block.settings.collectionTabIcon | img_url: '1500x' }}" alt="Icon" /></span> {{block.settings.collectionName}}</label>
+				<label class="tab" for="tab{{block.settings.collectionTabIconIndex}}"><span><img class="league-icon" loading="lazy" src="{{ block.settings.collectionTabIcon | img_url: '1500x' }}" alt="Icon" /></span> {{block.settings.collectionName}}</label>
 				{%- endcase -%} {%- endfor -%}
 			</div>
 		</div>

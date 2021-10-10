@@ -7,6 +7,7 @@
   <h1 class="title dark-blue">Fashion.</h1>
   <h1 class="title light-blue">Passion.</h1>
 </div>
+<div class="container" >
    <img class="hero-img" loading="lazy" src="{{ 'hp-hero.gif' | asset_url }}" alt="Screen Proctectors"/>
    <p class="product-description"> {{ section.settings.product_description }}</p>
     {%- for block in section.blocks -%}
@@ -17,6 +18,7 @@
           </a>
       {%- endcase -%}
     {%- endfor -%}
+  </div>
 </div>
 
 

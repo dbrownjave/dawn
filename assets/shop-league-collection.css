@@ -67,7 +67,7 @@ input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
 .tabset > label::after {
   content: "";
   position: absolute;
-  left: 35px;
+  left: 25%;
   bottom: 10px;
   width: 22px;
   height: 4px;
@@ -93,5 +93,39 @@ input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
 }
 
 .tabset {
-  max-width: 65em;
+  width: 100%;;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.tab {
+ 
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 350px) { 
+  .tab {
+    width: 50%;
+  }
+
+  .tabset > label::after {
+    left: 35%;
+  }
+  
+  
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .tab {
+    width: auto;
+  }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

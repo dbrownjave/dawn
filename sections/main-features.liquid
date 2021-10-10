@@ -24,7 +24,9 @@
     {%- case block.type -%}
     {%- when 'feature' -%}
     <div class="item">
+        <div  class="check-mark">
         {%- render 'icon-circle-check' -%}
+    </div>
         <span>{{ block.settings.title}}</span>
     </div>
     {%- endcase -%}

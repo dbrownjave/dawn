@@ -4,132 +4,127 @@
 }
 
 .device {
-margin: 24px 0px;
+  margin: 24px 0px;
 }
 
 .subtitle {
   font-size: 18px;
 }
 
-
 .click-tag {
   margin-top: 12px;
 }
-input[type=checkbox] {
-    visibility: hidden !important;
+
+input[type="checkbox"] {
+  visibility: hidden !important;
 }
 
 /* just outer white box, not necessary for functionality */
 .toggle-checkbox-wrapper {
   margin: auto;
   padding-right: 80px;
-  }
-  
-  /* toggle styling starts here */
-  /* hide the "default" checkbox/appearance */
-  .toggle-checkbox {
-    display: none;
-  }
-  
-  .slider {
-    position: relative;
-  }
-  
-  /* ellipsis */
-  .slider::before {
-    background-color: rgb(205, 215, 219);
-    border-radius: 34px;
-    bottom: 0;
-    content: '';
-    height: 36px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    width: 60px;
-  }
-  
-  /* circle */
-  .slider::after {
-    background: rgb(255, 255, 255);
-    border-radius: 50%;
-    bottom: 0;
-    content: '';
-    height: 24px;
-    left: 4px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    transition: 0.4s;
-    width: 24px;
-  }
-  
-  .toggle-switch {
-    margin-left: 50px;
-  }
-  
-  .toggle-switch.opt1 {
-    color: rgb(42, 228, 197);
-  }
-  
-  .toggle-switch.opt2 {
-    color: rgb(255, 255, 255);
-    display: none;
-  }
-  
-  .toggle-checkbox:checked + .slider::before {
-    background: rgb(5, 214, 186);
- 
-  }
-  
-  .toggle-checkbox:checked + .slider::after {
-    background-color: rgb(255, 255, 255);
-    transform: translateX(24px);
-  }
-  
-  .toggle-checkbox:checked ~ .slider > .toggle-switch.opt1 {
-    display: none;
-  }
-  
-  .toggle-checkbox:checked ~ .slider > .toggle-switch.opt2 {
-    display: inline-block;
-  }
+}
 
-  .click-tag {
-    font-size: 18px;
-  }
+/* toggle styling starts here */
+/* hide the "default" checkbox/appearance */
+.toggle-checkbox {
+  display: none;
+}
 
+.slider {
+  position: relative;
+}
 
-   /* Small devices (landscape phones, 576px and up) */
- @media (min-width: 350px) { 
+/* ellipsis */
+.slider::before {
+  background-color: rgb(205, 215, 219);
+  border-radius: 34px;
+  bottom: 0;
+  content: "";
+  height: 36px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
 
+/* circle */
+.slider::after {
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  bottom: 0;
+  content: "";
+  height: 24px;
+  left: 4px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  transition: 0.4s;
+  width: 24px;
+}
+
+.toggle-switch {
+  margin-left: 50px;
+}
+
+.toggle-switch.opt1 {
+  color: rgb(42, 228, 197);
+}
+
+.toggle-switch.opt2 {
+  color: rgb(255, 255, 255);
+  display: none;
+}
+
+.toggle-checkbox:checked + .slider::before {
+  background: rgb(5, 214, 186);
+}
+
+.toggle-checkbox:checked + .slider::after {
+  background-color: rgb(255, 255, 255);
+  transform: translateX(24px);
+}
+
+.toggle-checkbox:checked ~ .slider > .toggle-switch.opt1 {
+  display: none;
+}
+
+.toggle-checkbox:checked ~ .slider > .toggle-switch.opt2 {
+  display: inline-block;
+}
+
+.click-tag {
+  font-size: 18px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 350px) {
   .device {
     object-fit: scale-down;
     height: 552px;
+  }
+
+  .section-vertical-space {
+    margin: 40px 0;
+  }
 }
 
-.section-vertical-space {
-  margin: 40px 0;
-}
-
- }
-
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
   .device {
     object-fit: scale-down;
     height: 752px;
+  }
+
+  .section-vertical-space {
+    margin: 40px 0;
+  }
 }
 
-.section-vertical-space {
-  margin: 40px 0;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
 
-
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
-
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
- /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }

@@ -193,7 +193,8 @@
     margin: 0;
   }
 
-  .footer-block__newsletter:not(:only-child) .newsletter-form__message--success {
+  .footer-block__newsletter:not(:only-child)
+    .newsletter-form__message--success {
     left: auto;
   }
 }
@@ -328,7 +329,7 @@ noscript .localization-form__select {
 
 .localization-form__select .icon-caret {
   position: absolute;
-  content: '';
+  content: "";
   height: 0.6rem;
   right: 1.5rem;
   top: calc(50% - 0.2rem);
@@ -363,7 +364,6 @@ noscript .localization-selector.link {
   opacity: 1;
   animation: animateLocalization var(--duration-default) ease;
 }
-
 
 @media screen and (min-width: 750px) {
   .footer__payment {
