@@ -80,7 +80,7 @@
           "settings": {
             "collectionTabIcon": "shopify:\/\/shop_images\/nfl-logo.png",
             "collectionName": "NFL",
-            "collectionTabIconIndex": "",
+            "collectionTabIconIndex": "1",
             "collection": "home-page",
             "products_to_show": 4,
             "show_view_all": true,
@@ -122,10 +122,10 @@
           "settings": {
             "collectionTabIcon": "shopify:\/\/shop_images\/NBA.png",
             "collectionName": "NBA",
-            "collectionTabIconIndex": "",
-            "collection": "",
+            "collectionTabIconIndex": "3",
+            "collection": "home-page",
             "products_to_show": 4,
-            "show_view_all": true,
+            "show_view_all": false,
             "swipe_on_mobile": false,
             "image_ratio": "square",
             "show_secondary_image": false,
@@ -140,7 +140,7 @@
           "settings": {
             "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo.png",
             "collectionName": "NCAA",
-            "collectionTabIconIndex": "1",
+            "collectionTabIconIndex": "4",
             "collection": "home-page",
             "products_to_show": 4,
             "show_view_all": false,
