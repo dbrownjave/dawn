@@ -8,7 +8,7 @@
   <h1 class="title light-blue">Passion.</h1>
 </div>
 <div class="container" >
-  <video class="hero-img" autoplay loop muted playsinline src="{{ 'hp-hero.mp4' | asset_url }}" alt="Screen Proctectors" ></video>
+  <video class="hero-img" autoplay loop muted playsinline  oncontextmenu="return false;"  preload="auto" src="{{ 'hp-hero.mp4' | asset_url }}" alt="Screen Proctectors" ></video>
    <p class="product-description"> {{ section.settings.product_description }}</p>
     {%- for block in section.blocks -%}
     {%- case block.type -%}
