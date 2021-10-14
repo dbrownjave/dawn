@@ -1,20 +1,20 @@
 
 
 // Custom 
-let throttleTimer;
+// let throttleTimer;
  
-const throttle = (callback, time) => {
-  if (throttleTimer) return;
-    throttleTimer = true;
-    setTimeout(() => {
-        callback();
-        throttleTimer = false;
-    }, time);
-}
+// const throttle = (callback, time) => {
+//   if (throttleTimer) return;
+//     throttleTimer = true;
+//     setTimeout(() => {
+//         callback();
+//         throttleTimer = false;
+//     }, time);
+// }
  
-window.addEventListener("scroll", () => { 
-  throttle(handleScrollAnimation, 250);
-});
+// window.addEventListener("scroll", () => { 
+//   throttle(handleScrollAnimation, 250);
+// });
 
 // End Custom
 
