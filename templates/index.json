@@ -78,7 +78,7 @@
         "a962b81e-5fed-4688-ac57-460731b3889b": {
           "type": "collection",
           "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/NFL.png",
+            "collectionTabIcon": "shopify:\/\/shop_images\/nfl-logo_2a47665c-c875-495c-9ab3-15a9071fe81e.png",
             "collectionName": "NFL",
             "collectionTabIconIndex": "1",
             "collection": "home-page",
@@ -102,7 +102,7 @@
         "e9f3d133-0a21-4205-91e2-f26396f8a64b": {
           "type": "collection",
           "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/MLB.png",
+            "collectionTabIcon": "shopify:\/\/shop_images\/mlb-logo_9187b023-be29-4478-b9d1-5e9301b7036f.png",
             "collectionName": "MLB",
             "collectionTabIconIndex": "2",
             "collection": "home-page",
@@ -120,7 +120,7 @@
         "54ece3ab-c516-4056-9ca2-f527d718a808": {
           "type": "collection",
           "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/NBA_7f9c724c-8311-42a3-b0c3-d929e9f109ca.png",
+            "collectionTabIcon": "shopify:\/\/shop_images\/nba-logo.png",
             "collectionName": "NBA",
             "collectionTabIconIndex": "3",
             "collection": "home-page",
@@ -138,7 +138,7 @@
         "72d3ae61-8264-45f9-afc7-fd97a43679de": {
           "type": "collection",
           "settings": {
-            "collectionTabIcon": "shopify:\/\/shop_images\/1042px-NCAA_logo.png",
+            "collectionTabIcon": "shopify:\/\/shop_images\/ncaa-logo_6c84dbb6-f1e7-4cd0-97bf-ac925f4e9d2d.png",
             "collectionName": "NCAA",
             "collectionTabIconIndex": "4",
             "collection": "home-page",
