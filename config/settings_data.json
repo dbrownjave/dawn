@@ -1,12 +1,12 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
+    "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#005a9d",
     "colors_accent_2": "#53c0e9",
     "colors_text": "#000000",
     "colors_outline_button_labels": "#005a9d",
-    "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#f3f3f3",
     "type_header_font": "roboto_n5",
     "type_body_font": "roboto_n4",
     "sold_out_badge_color_scheme": "inverse",
@@ -61,8 +61,8 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Fall Launch 1",
-              "subtext": "<p>We are excited to release our Fall line of screen protection. Stay tuned for our Fall release #2...<\/p>"
+              "heading": "Who We Are",
+              "subtext": "<p>Based in Lakeland, Florida, we are a team of innovators that found a market we are passionate about and could make an impact through new product offerings. We combine our industry experience with a shared interest in sports and technology. We build screen protection for our customers to express themselves and PROTECT their phone screen with PASSION. We INNOVATE and COLLABORATE with our customers and brands in mind.<\/p>"
             }
           }
         },
