@@ -3,16 +3,45 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16358659290703b079": {
+      "type": "apps",
+      "blocks": {
+        "b294f059-ac3c-4112-b6a2-370ec5964d10": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b294f059-ac3c-4112-b6a2-370ec5964d10"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16358659290703b079"
   ]
 }
