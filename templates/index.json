@@ -166,6 +166,7 @@
     },
     "16370191245bf931cd": {
       "type": "functionality",
+      "disabled": true,
       "settings": {
         "heading": "How Does it Work?"
       }
