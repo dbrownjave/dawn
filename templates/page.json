@@ -9,22 +9,22 @@
     "163337254892cd964f": {
       "type": "about",
       "blocks": {
-        "3fa72f8b-44c6-4109-a698-eaa903f950f2": {
-          "type": "member",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/IMG_8239.jpg",
-            "name": "Clay Canning",
-            "career": "Co-Founder CEO",
-            "bio": "Clay started his first business back in late 2017 as a side gig in High School. He later went on to design Screen Skinz shortly after and begin his journey to obtain licenses within the collegiate market. He obtained his first license with the Unviersity of South Florida in 2018. Sparking his journey to obtain licenses within the MLB, NBA, and NCAA. Clay is from Lakeland, FL and if there is one thing to know about him, he loves the day to day hustle!"
-          }
-        },
         "3ae53684-4478-4ed5-befa-0e94d2ec02f0": {
           "type": "member",
           "settings": {
             "avatar": "shopify:\/\/shop_images\/rashaun-brown.v2.jpg",
             "name": "RaShaun Brown",
-            "career": "Co-Founder\/COO",
+            "career": "Co-Founder\/CEO",
             "bio": "RaShaun is a sports professional from Westerville, Ohio. He graduated from Ohio University with degrees in sports management, business administration, marketing, and also received his master’s in sports administration from the Ohio University Sports Ad program. His professional background includes working with Russell Athletics, the Big East Conference, and the 12th Man Foundation - fundraising for Texas A&M Athletics.  He is the Founder of RMBrown Ventures, focusing on innovative digital sports platforms. His portfolio includes College Emojis, which he licensed to 2ThumbZ Ent. He also works with Sportsmanias to feed fans innovative AR\/VR social content, which includes projects with the Collegiate Licensing Company, College Football Playoff and other brands."
+          }
+        },
+        "3fa72f8b-44c6-4109-a698-eaa903f950f2": {
+          "type": "member",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_8239.jpg",
+            "name": "Clay Canning",
+            "career": "Co-Founder COO",
+            "bio": "Clay started his first business back in late 2017 as a side gig in High School. He later went on to design Screen Skinz shortly after and begin his journey to obtain licenses within the collegiate market. He obtained his first license with the Unviersity of South Florida in 2018. Sparking his journey to obtain licenses within the MLB, NBA, and NCAA. Clay is from Lakeland, FL and if there is one thing to know about him, he loves the day to day hustle!"
           }
         },
         "17e89870-9746-4a52-ac1b-a90744f5db79": {
@@ -38,8 +38,8 @@
         }
       },
       "block_order": [
-        "3fa72f8b-44c6-4109-a698-eaa903f950f2",
         "3ae53684-4478-4ed5-befa-0e94d2ec02f0",
+        "3fa72f8b-44c6-4109-a698-eaa903f950f2",
         "17e89870-9746-4a52-ac1b-a90744f5db79"
       ],
       "settings": {
