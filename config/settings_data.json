@@ -23,7 +23,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Playoffs are Here!",
               "color_scheme": "background-1",
