@@ -23,6 +23,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Are you ready for the big game?",
               "color_scheme": "background-1",
